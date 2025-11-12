@@ -1,0 +1,43 @@
+ @charset "UTF-8";
+
+ * {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+ body {
+    background: url('../imagens/fundo-madeira.jpg') no-repeat top center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 98vh;
+    width: 97vw;
+    overflow: clip;
+    /* Não usar as medidas VH e VW com 100%, usar sempre medidas abaixo de 100. 
+Se não quiser rolagem na tela usar overflow: clip; sempre salva vidas. */
+ }
+
+ main {
+    height: 100vh;
+    position: relative;
+ }
+
+ section#telefone {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: url('../imagens/frame-iphone.png') no-repeat;
+    height: 627px;
+    width: 311px;
+
+ }
+
+ iframe#tela {
+    position: relative;
+    top: 80px;
+    left: 22px;
+    width: 269px;
+    height: 471px;
+
+ }
